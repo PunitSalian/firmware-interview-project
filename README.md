@@ -56,3 +56,6 @@ Your work will be assessed on the following criteria:
 1. Completeness and correctness of requirements implementation
 2. Adherence to effective design principles and coding standards
 3. Unit test coverage, and consideration of potential failure modes
+
+# Compile and Run Test
+mkdir build && cd build && cmake .. && cmake --build . && ctest
